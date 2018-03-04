@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22770E7F204BD50A00B03ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22770E7E204BD50A00B03ECF /* main.m */; };
+		22770E82204BD50A00B03ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22770E81204BD50A00B03ECF /* AppDelegate.m */; };
+		22770E85204BD50A00B03ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22770E84204BD50A00B03ECF /* ViewController.m */; };
+		22770E88204BD50A00B03ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22770E86204BD50A00B03ECF /* Main.storyboard */; };
+		22770E8A204BD50A00B03ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22770E89204BD50A00B03ECF /* Assets.xcassets */; };
+		22770E8D204BD50A00B03ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22770E8B204BD50A00B03ECF /* LaunchScreen.storyboard */; };
+		22770E98204BD50A00B03ECF /* TradeInCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22770E97204BD50A00B03ECF /* TradeInCoinTests.m */; };
+		22770EA3204BD50A00B03ECF /* TradeInCoinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22770EA2204BD50A00B03ECF /* TradeInCoinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22770E94204BD50A00B03ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22770E72204BD50A00B03ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22770E79204BD50A00B03ECF;
+			remoteInfo = TradeInCoin;
+		};
+		22770E9F204BD50A00B03ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22770E72204BD50A00B03ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22770E79204BD50A00B03ECF;
+			remoteInfo = TradeInCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22770E7A204BD50A00B03ECF /* TradeInCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeInCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22770E7E204BD50A00B03ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22770E80204BD50A00B03ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22770E81204BD50A00B03ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22770E83204BD50A00B03ECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22770E84204BD50A00B03ECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22770E87204BD50A00B03ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22770E89204BD50A00B03ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22770E8C204BD50A00B03ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22770E8E204BD50A00B03ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22770E93204BD50A00B03ECF /* TradeInCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeInCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22770E97204BD50A00B03ECF /* TradeInCoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeInCoinTests.m; sourceTree = "<group>"; };
+		22770E99204BD50A00B03ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22770E9E204BD50A00B03ECF /* TradeInCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeInCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22770EA2204BD50A00B03ECF /* TradeInCoinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeInCoinUITests.m; sourceTree = "<group>"; };
+		22770EA4204BD50A00B03ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22770E77204BD50A00B03ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22770E90204BD50A00B03ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22770E9B204BD50A00B03ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22770E71204BD50A00B03ECF = {
+			isa = PBXGroup;
+			children = (
+				22770E7C204BD50A00B03ECF /* TradeInCoin */,
+				22770E96204BD50A00B03ECF /* TradeInCoinTests */,
+				22770EA1204BD50A00B03ECF /* TradeInCoinUITests */,
+				22770E7B204BD50A00B03ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22770E7B204BD50A00B03ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22770E7A204BD50A00B03ECF /* TradeInCoin.app */,
+				22770E93204BD50A00B03ECF /* TradeInCoinTests.xctest */,
+				22770E9E204BD50A00B03ECF /* TradeInCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22770E7C204BD50A00B03ECF /* TradeInCoin */ = {
+			isa = PBXGroup;
+			children = (
+				22770E80204BD50A00B03ECF /* AppDelegate.h */,
+				22770E81204BD50A00B03ECF /* AppDelegate.m */,
+				22770E83204BD50A00B03ECF /* ViewController.h */,
+				22770E84204BD50A00B03ECF /* ViewController.m */,
+				22770E86204BD50A00B03ECF /* Main.storyboard */,
+				22770E89204BD50A00B03ECF /* Assets.xcassets */,
+				22770E8B204BD50A00B03ECF /* LaunchScreen.storyboard */,
+				22770E8E204BD50A00B03ECF /* Info.plist */,
+				22770E7D204BD50A00B03ECF /* Supporting Files */,
+			);
+			path = TradeInCoin;
+			sourceTree = "<group>";
+		};
+		22770E7D204BD50A00B03ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22770E7E204BD50A00B03ECF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22770E96204BD50A00B03ECF /* TradeInCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				22770E97204BD50A00B03ECF /* TradeInCoinTests.m */,
+				22770E99204BD50A00B03ECF /* Info.plist */,
+			);
+			path = TradeInCoinTests;
+			sourceTree = "<group>";
+		};
+		22770EA1204BD50A00B03ECF /* TradeInCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22770EA2204BD50A00B03ECF /* TradeInCoinUITests.m */,
+				22770EA4204BD50A00B03ECF /* Info.plist */,
+			);
+			path = TradeInCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22770E79204BD50A00B03ECF /* TradeInCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22770EA7204BD50A00B03ECF /* Build configuration list for PBXNativeTarget "TradeInCoin" */;
+			buildPhases = (
+				22770E76204BD50A00B03ECF /* Sources */,
+				22770E77204BD50A00B03ECF /* Frameworks */,
+				22770E78204BD50A00B03ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeInCoin;
+			productName = TradeInCoin;
+			productReference = 22770E7A204BD50A00B03ECF /* TradeInCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22770E92204BD50A00B03ECF /* TradeInCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22770EAA204BD50A00B03ECF /* Build configuration list for PBXNativeTarget "TradeInCoinTests" */;
+			buildPhases = (
+				22770E8F204BD50A00B03ECF /* Sources */,
+				22770E90204BD50A00B03ECF /* Frameworks */,
+				22770E91204BD50A00B03ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22770E95204BD50A00B03ECF /* PBXTargetDependency */,
+			);
+			name = TradeInCoinTests;
+			productName = TradeInCoinTests;
+			productReference = 22770E93204BD50A00B03ECF /* TradeInCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22770E9D204BD50A00B03ECF /* TradeInCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22770EAD204BD50A00B03ECF /* Build configuration list for PBXNativeTarget "TradeInCoinUITests" */;
+			buildPhases = (
+				22770E9A204BD50A00B03ECF /* Sources */,
+				22770E9B204BD50A00B03ECF /* Frameworks */,
+				22770E9C204BD50A00B03ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22770EA0204BD50A00B03ECF /* PBXTargetDependency */,
+			);
+			name = TradeInCoinUITests;
+			productName = TradeInCoinUITests;
+			productReference = 22770E9E204BD50A00B03ECF /* TradeInCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22770E72204BD50A00B03ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zzg;
+				TargetAttributes = {
+					22770E79204BD50A00B03ECF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					22770E92204BD50A00B03ECF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22770E79204BD50A00B03ECF;
+					};
+					22770E9D204BD50A00B03ECF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22770E79204BD50A00B03ECF;
+					};
+				};
+			};
+			buildConfigurationList = 22770E75204BD50A00B03ECF /* Build configuration list for PBXProject "TradeInCoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22770E71204BD50A00B03ECF;
+			productRefGroup = 22770E7B204BD50A00B03ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22770E79204BD50A00B03ECF /* TradeInCoin */,
+				22770E92204BD50A00B03ECF /* TradeInCoinTests */,
+				22770E9D204BD50A00B03ECF /* TradeInCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22770E78204BD50A00B03ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22770E8D204BD50A00B03ECF /* LaunchScreen.storyboard in Resources */,
+				22770E8A204BD50A00B03ECF /* Assets.xcassets in Resources */,
+				22770E88204BD50A00B03ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22770E91204BD50A00B03ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22770E9C204BD50A00B03ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22770E76204BD50A00B03ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22770E85204BD50A00B03ECF /* ViewController.m in Sources */,
+				22770E82204BD50A00B03ECF /* AppDelegate.m in Sources */,
+				22770E7F204BD50A00B03ECF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22770E8F204BD50A00B03ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22770E98204BD50A00B03ECF /* TradeInCoinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22770E9A204BD50A00B03ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22770EA3204BD50A00B03ECF /* TradeInCoinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22770E95204BD50A00B03ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22770E79204BD50A00B03ECF /* TradeInCoin */;
+			targetProxy = 22770E94204BD50A00B03ECF /* PBXContainerItemProxy */;
+		};
+		22770EA0204BD50A00B03ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22770E79204BD50A00B03ECF /* TradeInCoin */;
+			targetProxy = 22770E9F204BD50A00B03ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22770E86204BD50A00B03ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22770E87204BD50A00B03ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22770E8B204BD50A00B03ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22770E8C204BD50A00B03ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22770EA5204BD50A00B03ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22770EA6204BD50A00B03ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22770EA8204BD50A00B03ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TradeInCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzg.TradeInCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22770EA9204BD50A00B03ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TradeInCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzg.TradeInCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22770EAB204BD50A00B03ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeInCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzg.TradeInCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeInCoin.app/TradeInCoin";
+			};
+			name = Debug;
+		};
+		22770EAC204BD50A00B03ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeInCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzg.TradeInCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeInCoin.app/TradeInCoin";
+			};
+			name = Release;
+		};
+		22770EAE204BD50A00B03ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeInCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzg.TradeInCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeInCoin;
+			};
+			name = Debug;
+		};
+		22770EAF204BD50A00B03ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeInCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzg.TradeInCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeInCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22770E75204BD50A00B03ECF /* Build configuration list for PBXProject "TradeInCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22770EA5204BD50A00B03ECF /* Debug */,
+				22770EA6204BD50A00B03ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22770EA7204BD50A00B03ECF /* Build configuration list for PBXNativeTarget "TradeInCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22770EA8204BD50A00B03ECF /* Debug */,
+				22770EA9204BD50A00B03ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22770EAA204BD50A00B03ECF /* Build configuration list for PBXNativeTarget "TradeInCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22770EAB204BD50A00B03ECF /* Debug */,
+				22770EAC204BD50A00B03ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22770EAD204BD50A00B03ECF /* Build configuration list for PBXNativeTarget "TradeInCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22770EAE204BD50A00B03ECF /* Debug */,
+				22770EAF204BD50A00B03ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22770E72204BD50A00B03ECF /* Project object */;
+}
